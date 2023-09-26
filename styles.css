@@ -1,14 +1,13 @@
-/*  your css code here. If applicable */
- #container{
-            margin: 20px;
-        }
-        #container ::before{
-            content: "Before Element ";
-            color:rgb(255, 0, 0);
-            font-size: 20px;
-        }
-        #container ::after{
-            content: "After Element";
-            color:rgb(255, 0, 0);
-            font-size: 20px;
-        }
+#container {
+    margin: 20px;
+}
+#container::before {
+    content: "Before Element ";
+    color: rgb(255, 0, 0); /* Set the color to red (rgb(255, 0, 0)) */
+    font-size: 20px;
+}
+#container::after {
+    content: "After Element";
+    color: rgb(255, 0, 0); /* Set the color to red (rgb(255, 0, 0)) */
+    font-size: 20px;
+}
