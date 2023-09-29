@@ -9,6 +9,6 @@
 }
 #container::after{
 	 content:"After Element";
-     font-size:20px;
-	 color: rgb(255, 0, 0);
+font-size:20px;
+	 color: rgb(255, 0, 0);
 }
