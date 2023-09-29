@@ -10,5 +10,5 @@
 #container::after{
 	 content:"After Element";
      font-size:20px;
-	  color:#f00;
+	 color:#f00;
 }
