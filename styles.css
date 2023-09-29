@@ -9,7 +9,7 @@
     content: "Before element (in red) ";
     color: #f00; /* Red color */
     font-size: 20px;
-    position: absolute;
+/*     position: absolute; */
     left: 0;
     top: 0;
 }
@@ -18,7 +18,7 @@
     content: " After Element (in red)";
     color: #f00; /* Red color */
     font-size: 20px;
-    position: absolute;
+/*     position: absolute; */
     right: 0;
     bottom: 0;
 }
