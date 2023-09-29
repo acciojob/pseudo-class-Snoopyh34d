@@ -1,24 +1,14 @@
-/* style.css */
-
-#container {
-    margin: 20px;
-    position: relative; /* Required for pseudo-elements */
+#container{
+	margin:20px;
 }
-
-#container::before {
-    content: "Before element (in red) ";
-    color: #f00; /* Red color */
-    font-size: 20px;
-/*     position: absolute; */
-    left: 0;
-    top: 0;
+#container::before{
+	 content:"Before Element";
+     font-size:20px;
+	 color:#f00;
+	
 }
-
-#container::after {
-    content: " After Element (in red)";
-    color: #f00; /* Red color */
-    font-size: 20px;
-/*     position: absolute; */
-    right: 0;
-    bottom: 0;
+#container::after{
+	 content:"After Element";
+     font-size:20px;
+	  color:#f00;
 }
